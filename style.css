@@ -380,32 +380,155 @@ nav ul li a:hover {
     line-height: 1.6;
     color: #4b5563;
 }
-
-/* Placeholder Section (Figma Design Match) */
-.ai-section {
+/* AI Challenge: Architecture Clinic & Code Battle */
+.clinic-section {
     margin: 20px auto 80px auto;
 }
 
-.ai-box {
-    background-color: #eef2ff;
-    border: 2px dashed #6366f1;
-    border-radius: 12px;
-    padding: 90px 20px;
+.clinic-header {
     text-align: center;
-    width: 100%;
+    max-width: 680px;
+    margin: 0 auto 44px auto;
 }
 
-.ai-box h2 {
-    color: #4f46e5;
-    font-size: 32px;
+.clinic-tag {
+    font-size: 11px;
     font-weight: 700;
+    letter-spacing: 1px;
+    color: #2563eb;
+    background-color: #eff6ff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.clinic-header h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #111827;
     margin-bottom: 10px;
 }
 
-.ai-box p {
-    color: #6366f1;
-    font-size: 16px;
+.clinic-header p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #6b7280;
+}
+
+.clinic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.clinic-card {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clinic-card-dark {
+    background-color: #0b1329;
+    color: white;
+    border: none;
+    box-shadow: 0 10px 25px rgba(11, 19, 41, 0.15);
+}
+
+.clinic-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.clinic-badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.badge-blue {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.badge-amber {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+}
+
+.clinic-time {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.clinic-card-dark .clinic-time {
+    color: #9ca3af;
+}
+
+.clinic-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.clinic-card-dark h3 {
+    color: #ffffff;
+}
+
+.clinic-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4b5563;
+    margin-bottom: 24px;
+}
+
+.clinic-card-dark p {
+    color: #d1d5db;
+}
+
+.clinic-perks {
+    list-style: none;
+    margin-top: auto;
+    padding-top: 18px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.clinic-card-dark .clinic-perks {
+    border-top-color: #1e293b;
+}
+
+.clinic-perks li {
+    font-size: 13px;
     font-weight: 500;
+    color: #374151;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.clinic-card-dark .clinic-perks li {
+    color: #e5e7eb;
+}
+
+.clinic-perks li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.clinic-card-dark .clinic-perks li::before {
+    color: #60a5fa;
 }
 
 /* Footer Section */
