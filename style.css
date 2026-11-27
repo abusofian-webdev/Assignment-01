@@ -101,3 +101,49 @@ nav ul li a {
 nav ul li a:hover {
     color: #111827;
 }
+/* Hero Section */
+.hero-parent-root {
+    max-width: 1100px;
+    margin: 20px auto 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.hero-center {
+    max-width: 760px;
+}
+
+.hero-center h2 {
+    font-weight: 800;
+    font-size: 54px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.hero-center h2 em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-center p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #e5e7eb;
+    margin-bottom: 35px;
+}
+
+.hero-main-btn {
+    padding: 14px 32px;
+    font-size: 15px;
+}
